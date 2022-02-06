@@ -12,7 +12,32 @@
 <body>
 
     <header>
+
         <nav id="nav">
+            <div id="menu" class="container">
+                <div class="fix-overflow">
+                    <div class="float-left left-box">
+                        <h2>About</h2>
+                        <p class="gray-txt">Add some information about the album below, the author, or any other
+                            background
+                            context. Make it
+                            a few sentences long so
+                            folks can pick up some informative tidbits. Then, link them off to some social networking
+                            sites
+                            or contact information.</p>
+                    </div>
+                    <div class="float-right">
+                        <h2 class="mb-1">Contact</h2>
+                        <ul>
+                            <li class="mb-05">
+                                <a href="#"></a>Follow on Twitter
+                            </li>
+                            <li class="mb-05"><a href="#"></a>Like on Facebook</li>
+                            <li class="mb-2"><a href="#"></a>Email me</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div class="container fix-overflow">
                 <div class="logo float-left">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="#fff"
@@ -24,8 +49,8 @@
                     </svg>
                     <strong>Album</strong>
                 </div>
-                <button id="btn-menu" class="float-right"><img id="menu-img" src="./menu-btn.png"
-                        alt="menu button"></button>
+                <button id="btn-menu" class="float-right" onclick="dropDownHendler()"><img id="menu-img"
+                        src="./menu-btn.png" alt="menu button"></button>
 
             </div>
         </nav>

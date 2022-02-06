@@ -153,21 +153,47 @@ table {
 .mb-2 {
   margin-bottom: 2em;
 }
+.mb-1 {
+  margin-bottom: 1em;
+}
+.mb-05 {
+  margin-bottom: 0.5em;
+}
 .mt-2 {
   margin-top: 2em;
+}
+.padding-1 {
+  padding: 1em;
 }
 /*---------- header styles ---------- */
 .container {
   max-width: 992px;
   margin: 0 auto;
 }
+
+.left-box {
+  max-width: 400px;
+}
+.gray-txt {
+  color: var(--secondary-gray);
+  margin-top: 1em;
+}
 nav {
-  padding: 20px;
+  padding: 10px 0;
+  background-color: var(--black);
+  color: white;
+}
+svg {
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+.logo {
+  padding-top: 8px;
+}
+.page-name {
   font-size: 20px;
   font-weight: 900;
-  color: white;
-  background-color: var(--black);
-  padding: 8px auto;
+  line-height: 20px;
 }
 #menu-img {
   width: 30px;
@@ -177,6 +203,7 @@ nav {
   padding: 4px 12px;
   border: 1px solid var(--secondary-gray);
   background-color: transparent;
+  cursor: pointer;
 }
 #about {
   padding: 5em 0;
