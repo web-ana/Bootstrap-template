@@ -12,9 +12,9 @@
 <body>
 
     <header>
-        <nav>
-            <div class="container">
-                <div class="logo">
+        <nav id="nav">
+            <div class="container fix-overflow">
+                <div class="logo float-left">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="#fff"
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
                         viewBox="0 0 24 24">
@@ -24,7 +24,8 @@
                     </svg>
                     <strong>Album</strong>
                 </div>
-                <button><img id="menu-img" src="./menu-btn.png" alt="menu button"></button>
+                <button id="btn-menu" class="float-right"><img id="menu-img" src="./menu-btn.png"
+                        alt="menu button"></button>
 
             </div>
         </nav>
@@ -32,8 +33,8 @@
     <main>
         <div class="container">
             <section id="about" class="center">
-                <h1 class="mr-b-2">Album example</h1>
-                <p class="mr-b-2">Something short and leading about the collection below—its contents, the creator,
+                <h1 class="mb-2">Album example</h1>
+                <p class="mb-2">Something short and leading about the collection below—its contents, the creator,
                     etc. Make it short and
                     sweet, but not
                     too short so folks don’t simply skip over it entirely.</p>
@@ -43,9 +44,9 @@
                 </div>
             </section>
         </div>
-        <section id="album mr-auto">
+        <section id="album m-auto">
             <div class="container center">
-                <div class="card-row mr-b-2">
+                <div class="card-row mb-2">
                     <div class="card">
                         <div class="card-header">
                             <p>Thumbnail</p>
@@ -56,12 +57,12 @@
                                 content. This content is a little bit
                                 longer.</p>
 
-                            <div class="card-footer mr-t-2">
-                                <div class="btn-container">
+                            <div class="card-footer fix-overflow mt-2">
+                                <div class="btn-container float-left">
                                     <button class="btn-view">View</button>
                                     <button class="btn-edit">Edit</button>
                                 </div>
-                                <div class="upload-time">9 mins</div>
+                                <div class="upload-time float-right">9 mins</div>
                             </div>
                         </div>
                     </div>
@@ -75,12 +76,12 @@
                                 content. This content is a little bit
                                 longer.</p>
 
-                            <div class="card-footer mr-t-2">
-                                <div class="btn-container">
+                            <div class="card-footer fix-overflow mt-2">
+                                <div class="btn-container float-left">
                                     <button class="btn-view">View</button>
                                     <button class="btn-edit">Edit</button>
                                 </div>
-                                <div class="upload-time">9 mins</div>
+                                <div class="upload-time float-right">9 mins</div>
                             </div>
                         </div>
                     </div>
@@ -94,17 +95,18 @@
                                 content. This content is a little bit
                                 longer.</p>
 
-                            <div class="card-footer mr-t-2">
-                                <div class="btn-container">
+                            <div class="card-footer fix-overflow mt-2">
+                                <div class="btn-container float-left">
                                     <button class="btn-view">View</button>
                                     <button class="btn-edit">Edit</button>
                                 </div>
-                                <div class="upload-time">9 mins</div>
+                                <div class="upload-time float-right">9 mins</div>
                             </div>
                         </div>
                     </div>
+
                 </div>
-                <div class="card-row mr-b-2">
+                <div class="card-row mb-2">
                     <div class="card">
                         <div class="card-header">
                             <p>Thumbnail</p>
@@ -115,12 +117,12 @@
                                 content. This content is a little bit
                                 longer.</p>
 
-                            <div class="card-footer mr-t-2">
-                                <div class="btn-container">
+                            <div class="card-footer fix-overflow mt-2">
+                                <div class="btn-container float-left">
                                     <button class="btn-view">View</button>
                                     <button class="btn-edit">Edit</button>
                                 </div>
-                                <div class="upload-time">9 mins</div>
+                                <div class="upload-time float-right">9 mins</div>
                             </div>
                         </div>
                     </div>
@@ -134,12 +136,12 @@
                                 content. This content is a little bit
                                 longer.</p>
 
-                            <div class="card-footer mr-t-2">
-                                <div class="btn-container">
+                            <div class="card-footer fix-overflow mt-2">
+                                <div class="btn-container float-left">
                                     <button class="btn-view">View</button>
                                     <button class="btn-edit">Edit</button>
                                 </div>
-                                <div class="upload-time">9 mins</div>
+                                <div class="upload-time float-right">9 mins</div>
                             </div>
                         </div>
                     </div>
@@ -153,17 +155,18 @@
                                 content. This content is a little bit
                                 longer.</p>
 
-                            <div class="card-footer mr-t-2">
-                                <div class="btn-container">
+                            <div class="card-footer fix-overflow mt-2">
+                                <div class="btn-container float-left">
                                     <button class="btn-view">View</button>
                                     <button class="btn-edit">Edit</button>
                                 </div>
-                                <div class="upload-time">9 mins</div>
+                                <div class="upload-time float-right">9 mins</div>
                             </div>
                         </div>
                     </div>
+
                 </div>
-                <div class="card-row">
+                <div class="card-row mb-2">
                     <div class="card">
                         <div class="card-header">
                             <p>Thumbnail</p>
@@ -174,12 +177,12 @@
                                 content. This content is a little bit
                                 longer.</p>
 
-                            <div class="card-footer mr-t-2">
-                                <div class="btn-container">
+                            <div class="card-footer fix-overflow mt-2">
+                                <div class="btn-container float-left">
                                     <button class="btn-view">View</button>
                                     <button class="btn-edit">Edit</button>
                                 </div>
-                                <div class="upload-time">9 mins</div>
+                                <div class="upload-time float-right">9 mins</div>
                             </div>
                         </div>
                     </div>
@@ -193,12 +196,12 @@
                                 content. This content is a little bit
                                 longer.</p>
 
-                            <div class="card-footer mr-t-2">
-                                <div class="btn-container">
+                            <div class="card-footer fix-overflow mt-2">
+                                <div class="btn-container float-left">
                                     <button class="btn-view">View</button>
                                     <button class="btn-edit">Edit</button>
                                 </div>
-                                <div class="upload-time">9 mins</div>
+                                <div class="upload-time float-right">9 mins</div>
                             </div>
                         </div>
                     </div>
@@ -212,21 +215,30 @@
                                 content. This content is a little bit
                                 longer.</p>
 
-                            <div class="card-footer mr-t-2">
-                                <div class="btn-container">
+                            <div class="card-footer fix-overflow mt-2">
+                                <div class="btn-container float-left">
                                     <button class="btn-view">View</button>
                                     <button class="btn-edit">Edit</button>
                                 </div>
-                                <div class="upload-time">9 mins</div>
+                                <div class="upload-time float-right">9 mins</div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
-
+    <footer>
+        <div class="fix-overflow container">
+            <p class="float-right"><a href="#nav">Back to top</a></p>
+            <p class="float-left">Album example is © Bootstrap, but please download and customize it for yourself!</p>
+            <br>
+            <p>New to Bootstrap?<a href="#">Visit the homepage</a> or read our <a href="#">getting
+                    started guide</a>.
+            </p>
+        </div>
+    </footer>
     <script src="app.js"></script>
 </body>
 

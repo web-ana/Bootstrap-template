@@ -132,23 +132,33 @@ table {
   --primary-blue: #0d6efd;
   --secondary-gray: #6c757d;
   --card-gray: #55595c;
+  --bg-album: #f8f9fa;
 }
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.fix-overflow {
+  overflow: auto;
+}
+
 .center {
   text-align: center;
 }
-.mr-auto {
+.m-auto {
   margin: 0 auto;
 }
-.mr-b-2 {
+.mb-2 {
   margin-bottom: 2em;
 }
-.mr-t-2 {
+.mt-2 {
   margin-top: 2em;
 }
 /*---------- header styles ---------- */
 .container {
   max-width: 992px;
-  background-color: #8ba4ca;
   margin: 0 auto;
 }
 nav {
@@ -158,25 +168,20 @@ nav {
   color: white;
   background-color: var(--black);
   padding: 8px auto;
-  overflow: auto;
 }
 #menu-img {
   width: 30px;
 }
-.logo {
-  float: left;
-}
-button {
-  float: right;
+
+#btn-menu {
   padding: 4px 12px;
   border: 1px solid var(--secondary-gray);
   background-color: transparent;
 }
 #about {
-  padding: 10em 0;
+  padding: 5em 0;
   max-width: 456px;
   margin: auto;
-
   color: var(--secondary-gray);
 }
 
@@ -198,8 +203,11 @@ button {
   border: 1px solid var(--secondary-gray);
 }
 
+#album {
+  background: var(--bg-album);
+}
 .card {
-  width: 30%;
+  width: 33%;
   border: 1px solid var(--card-gray);
   display: inline-block;
 }
@@ -212,15 +220,7 @@ button {
 .card-body {
   padding: 1em;
 }
-.card-footer {
-  overflow: auto;
-}
-.btn-container {
-  float: left;
-}
-.upload-time {
-  float: right;
-}
+
 .p-align-start {
   text-align: start;
 }
