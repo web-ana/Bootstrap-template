@@ -136,14 +136,20 @@ table {
 .center {
   text-align: center;
 }
-.margin-1em {
-  margin-bottom: 20px;
+.mr-auto {
+  margin: 0 auto;
+}
+.mr-b-2 {
+  margin-bottom: 2em;
+}
+.mr-t-2 {
+  margin-top: 2em;
 }
 /*---------- header styles ---------- */
 .container {
   max-width: 992px;
   background-color: #8ba4ca;
-  margin: auto;
+  margin: 0 auto;
 }
 nav {
   padding: 20px;
@@ -158,11 +164,9 @@ nav {
   width: 30px;
 }
 .logo {
-  /* display: inline-block; */
   float: left;
 }
 button {
-  /* display: inline-block; */
   float: right;
   padding: 4px 12px;
   border: 1px solid var(--secondary-gray);
@@ -192,4 +196,31 @@ button {
 .secondary-action {
   background-color: var(--secondary-gray);
   border: 1px solid var(--secondary-gray);
+}
+
+.card {
+  width: 30%;
+  border: 1px solid var(--card-gray);
+  display: inline-block;
+}
+.card-header {
+  height: 225px;
+  background-color: var(--card-gray);
+  vertical-align: middle;
+  line-height: 225px;
+}
+.card-body {
+  padding: 1em;
+}
+.card-footer {
+  overflow: auto;
+}
+.btn-container {
+  float: left;
+}
+.upload-time {
+  float: right;
+}
+.p-align-start {
+  text-align: start;
 }
