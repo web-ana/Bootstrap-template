@@ -1,10 +1,12 @@
 const menu = document.getElementById("menu");
-menu.style.display = "none";
+menu.classList.add("hide");
 
-function dropDownHendler() {
-  if (menu.style.display === "none") {
-    menu.style.display = "block";
+function toggle() {
+  if (menu.classList.contains("hide")) {
+    menu.classList.remove("hide");
+    menu.classList.add("show");
   } else {
-    menu.style.display = "none";
+    menu.classList.remove("show");
+    menu.classList.add("hide");
   }
 }
